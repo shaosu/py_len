@@ -3,9 +3,9 @@
 
 """
 @version: 0.1
-@author: phpergao
+@author: shaosu
 @license: Apache Licence 
-@contact: endoffight@gmail.com
+@contact:https://github.com/shaosu
 @site: http://www.baidu.com
 @software: PyCharm Community Edition
 @file: 1to10.py.py
@@ -296,7 +296,7 @@ if __name__ == '__main__':
 	# list3.append([1, 2, 3, 4, 5, 6, 8, 8, 9, 10])
 	# list3.append([1, 2, 3, 4, 5, 6, 8, 8, 9, 10])
 	# list3.append([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-	print("1 to 10 in a to j let (a+b+c)/(d+e+f)=(g+h)/(i+j)")
+	print("1 to 10 in a to j  (a+b+c)/(d+e+f)=(g+h)/(i+j)")
 	lid = fun_getid(list3)
 	rt = get_rt(lid)
 	s = 0
@@ -308,8 +308,8 @@ if __name__ == '__main__':
 		print("  相同个数:"+str(tt[1]))
 
 	print(" "*28 + "  相加结果："+str(s))
-	print("重复总数："+str(len(list3)))
-	print("不重复总数"+str(len(rt)))
+	print("重复总数:"+str(len(list3)))
+	print("不重复总数:"+str(len(rt)))
 
 	# list_ok1 = fun_qc(list3)
 	# print(len(list_ok1))
