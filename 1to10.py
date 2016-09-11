@@ -301,8 +301,8 @@ if __name__ == '__main__':
 	rt = get_rt(lid)
 	s = 0
 	for i in range(0, len(rt)):
-		tt=rt[i]
-		myrt=list3[tt[0]]
+		tt = rt[i]
+		myrt = list3[tt[0]]
 		my_print(myrt)
 		s = s + tt[1]
 		print("  相同个数:"+str(tt[1]))
